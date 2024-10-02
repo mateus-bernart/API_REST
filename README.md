@@ -12,3 +12,6 @@ Also created a local host to get route access with localhost:3000
 #### Use of MVC to structure the data, manage HTTP functions and routes.
 
 ## Error Handling using Linter
+
+### Use of Middleware
+#### Functions that Intercept request to the API to handle the errors.
