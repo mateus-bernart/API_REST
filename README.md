@@ -1,2 +1,14 @@
-# 2404-api-node-express
-Projeto utilizado no curso da Alura
+###Creation of my first API Rest using Mongo DB and Express for a educational purpose.
+
+#### Request and Responses tested with Postman
+
+#### noSQL DB - json object/document related
+
+For this project, was created a instance of MongoDB at Mongo Atlas, a service hosted at the cloud
+Also created a local host to get route access with localhost:3000
+
+#### Framework mongoose for connection with MongoDB
+
+#### Use of MVC to structure the data, manage HTTP functions and routes.
+
+## Error Handling using Linter
