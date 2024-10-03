@@ -18,3 +18,6 @@ Also created a local host to get route access with localhost:3000
 #### Functions that Intercept request to the API to handle the errors at first glance, before the controllers. (Controllers are also middlewares!)
 
 Middlewares with classes with different kinds of errors (validation, requisition, base error)
+
+- All errors centralized in the middleware "manipuladorDeErros"
+- The right way to action this middleware is calling 'next' that is a parameter of the controller middleware and putting the error as a parameter. He will execute the manipuladorDeErros right after when an error is encountered.
