@@ -14,4 +14,7 @@ Also created a local host to get route access with localhost:3000
 ## Error Handling using Linter
 
 ### Use of Middleware
-#### Functions that Intercept request to the API to handle the errors.
+
+#### Functions that Intercept request to the API to handle the errors at first glance, before the controllers. (Controllers are also middlewares!)
+
+Middlewares with classes with different kinds of errors (validation, requisition, base error)
