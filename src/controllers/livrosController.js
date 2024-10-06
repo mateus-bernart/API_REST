@@ -85,7 +85,7 @@ class LivroController {
       if (busca !== null) {
         const livrosResultado = livros.find(busca).populate("autor");
 
-        req.resultado = livrosResultado;
+        req.resultado = livrosResultado; //guarda a busca do mongoose para o middleware 'paginar'
 
         next();
       } else {

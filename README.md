@@ -13,7 +13,10 @@ Also created a local host to get route access with localhost:3000
 
 ## Error Handling using Linter
 
-### Use of Middleware
+### Use of Middleware (Express)
+
+- To manipulate popular errors (404, 500)
+- to paginate the data using limit and skip, sort, functions
 
 #### Functions that Intercept request to the API to handle the errors at first glance, before the controllers. (Controllers are also middlewares!)
 
@@ -38,4 +41,5 @@ Using the mongoose option to set a validation to every String globally, it was p
 - message at the end for the user to comprehend what happened;
 
 #### Custom filter query search
+
 - implementation and validation of the search of books from your properties: editora, titulo, minPaginas, maxPaginas, nomeAutor
